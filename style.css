@@ -130,3 +130,18 @@ footer
     background-color: #000000;
     color: white;
 }
+
+@media (max-width:470px)
+{
+    .main-container
+    {
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+    }
+    .progress
+    {
+        align-items: center;
+        flex-direction: column;
+    }
+}
