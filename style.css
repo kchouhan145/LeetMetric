@@ -133,15 +133,50 @@ footer
 
 @media (max-width:470px)
 {
+    body{
+        gap: 10px;
+    }
+    h1
+    {
+        font-size: 1.5rem;
+    }
     .main-container
     {
         flex-direction: column;
         height: 100vh;
         width: 100vw;
     }
+    .container
+    {
+        width: 80%;
+        height: fit-content;
+        padding: 20px;
+        box-shadow:none;
+    }
+    .circle
+    {
+        width: 90px;
+        height: 90px;
+    }
+    .card
+    {
+        width: 150px;
+        padding: 10px;
+    }
+    .card h3
+    {
+        font-size: small;
+    }
     .progress
     {
         align-items: center;
         flex-direction: column;
+    }
+}
+@media (max-width:330px)
+{
+    *
+    {
+        font-size: small;
     }
 }
